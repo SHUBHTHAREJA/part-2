@@ -1,37 +1,47 @@
 body {
     margin: 0;
-    padding-top: 800px;
+    padding-top: 800px;text-align: center;
 }
+
 /*css for the menu */
-.menu{
+.menu {
     /*removes the bullets */
- list-style: none;
+    list-style: none;
     /*it changes the way of writing the text */
     font-family: sans-serif;
-    /*it sets the posirtion absolute */
-    position: absolute;
+    /*it sets the posirtion fixed */
+    position: fixed;
     /*it goes  10px up  */
     top: 10px;
     /*it goes  10px right */
-    right:30px;
+    right: 30px;
     /*it brings everything in top */
     z-index: 9;
     cursor: pointer;
 }
-.link{
+
+.link {
     /*arranges everything in left */
     float: left;
+    /*it changes it like a block */
     display: block;
+    /*colr changes to blck */
     color: black;
+    /*it goes  5px up  */
     padding-top: 5px;
+    /*it goes  9px left  */
     padding-left: 9px;
+    /*it goes  9px right  */
     padding-right: 9px;
+    /*it goes  5px down  */
     padding-bottom: 5px;
     font-family: 'Roboto Slab', serif;
-     font-size:20px; 
+    font-size: 20px;
 }
-.link:hover{background-color: dodgerblue;
-font-size: 22px;
+
+.link:hover {
+    background-color: dodgerblue;
+    font-size: 22px;
 }
 
 .profile {
@@ -53,9 +63,9 @@ font-size: 22px;
     bottom: 0;
     right: 0;
     opacity: 0.83;
-    
+
     display: table;
-    
+
 }
 
 
@@ -82,7 +92,6 @@ h2 {
 }
 
 #bio {
-
     padding: 50px;
     text-align: center;
     font-size: 42px;
@@ -112,3 +121,6 @@ p {
 
 }
 
+html{
+    scroll-behavior:smooth;
+}
