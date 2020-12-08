@@ -1,100 +1,25 @@
-body {
-    margin: 0;
-    padding-top: 800px;text-align: center;
+body
+{
+    text-align: center;
 }
-
-/*css for the menu */
-.menu {
-    /*removes the bullets */
-    list-style: none;
-    /*it changes the way of writing the text */
-    font-family: sans-serif;
-    /*it sets the posirtion fixed */
-    position: fixed;
-    /*it goes  10px up  */
-    top: 10px;
-    /*it goes  10px right */
-    right: 30px;
-    /*it brings everything in top */
-    z-index: 9;
-    cursor: pointer;
-}
-
-.link {
-    /*arranges everything in left */
-    float: left;
-    /*it changes it like a block */
-    display: block;
-    /*colr changes to blck */
-    color: black;
-    /*it goes  5px up  */
-    padding-top: 5px;
-    /*it goes  9px left  */
-    padding-left: 9px;
-    /*it goes  9px right  */
-    padding-right: 9px;
-    /*it goes  5px down  */
-    padding-bottom: 5px;
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-}
-
-.link:hover {
-    background-color: dodgerblue;
-    font-size: 22px;
-}
-
-.profile {
-    width: 175px;
-    margin-bottom: 50px;
-    border-radius: 50%;
-}
-
 #welcome {
+    color: #FFFFFF;
+    bottom: 0;
     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
     width: 100%;
     height: 100%;
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    color: #FFFFFF;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.83;
-
-    display: table;
-
+    z-index: 9;
 }
-
-
-
-h1 {
-
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-
-#name {
-    font-size: 30px;
-    line-height: 1.2;
-    font-family: cursive
-}
-
-h2 {
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 1.2;
-    font-family: monospace
-}
-
 #bio {
+    font-family: 'Cinzel Decorative', cursive;
     padding: 50px;
     text-align: center;
-    font-size: 42px;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
 }
 
 .line {
@@ -103,24 +28,27 @@ h2 {
     width: 70px;
     margin: 8px auto;
 }
-
-
-p {
-    max-width: 450px;
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.3;
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
 }
 
-.parallax-inner {
 
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-
+#videos iframe
+{
+    width: 80%;
 }
 
-html{
-    scroll-behavior:smooth;
+
+input
+{
+    background: grey;
 }
